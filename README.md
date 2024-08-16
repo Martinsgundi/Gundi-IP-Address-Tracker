@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Checkout out my solution on front end mentor](https://your-solution-url.com)
-- Live Site URL: [Checkout the live site](https://your-live-site-url.com)
+- Solution URL: [Checkout out my solution on front end mentor](https://www.frontendmentor.io/solutions/gundis-ip-address-tracker-6VvPCkajRz)
+- Live Site URL: [Checkout the live site](https://gundi-ip-address-tracker.netlify.app/)
 
 
 ## My process

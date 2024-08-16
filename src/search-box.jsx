@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { FaTriangleExclamation } from "react-icons/fa6";
+
 
 // Images
 import arrowIcon from './assets/images/icon-arrow.svg';
@@ -53,10 +55,13 @@ const SearchBox = ( { handleApiSearch } ) => {
             {/* Error message for form validation */}
             { !isValid && !isEmpty(ip) 
                 && 
-                <p style={{ color: '#d70000' }}
-                   className='mt-2 text-xl'>
-                    Invalid IP address format
-                </p> 
+                <div className='flex text-[#ed4337] gap-3 px-4 mx-auto mt-2 bg-white rounded-lg w-fit'>
+                    <FaTriangleExclamation className='self-center' />
+                    
+                    <p className='text-lg midLg:text-xl'>
+                        Invalid IP address format
+                    </p> 
+                </div>
             }
         </>
     );
