@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.responseHeader {
+    @apply text-darkGray text-[0.7rem] md:text-[0.8rem] tracking-widest;
+}
+
+.responseDiv {
+    @apply midLg:pl-8 midLg:border-l-2 midLg:w-fit;
+}
