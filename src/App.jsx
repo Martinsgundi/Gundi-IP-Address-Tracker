@@ -30,7 +30,7 @@ function App() {
         midLg:bg-[url('./assets/images/pattern-bg-desktop.png')] ">
 
 
-          <h1 className='text-2xl font-semibold mb-7'> 
+          <h1 className='text-2xl font-semibold mb-7' role='header'> 
             Gundi's <span className='text-white'> IP Address Tracker </span>
           </h1>
 

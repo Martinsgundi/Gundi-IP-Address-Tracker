@@ -6,9 +6,9 @@ const InfoBox = ( {response} ) => {
                 response &&
                 
                 <div className="bg-white relative z-10 grid gap-4 rounded-2xl w-full mt-6 py-4 
-                mb-[-20rem] vSm:grid-cols-2 vSm:mb-[-11rem] vSm:gap-y-7 max-w-[455px] midLg:gap-y-4 
+                mb-[-20rem] vSm:grid-cols-2 vSm:mb-[-11rem] vSm:gap-y-7 vSm:px-4 max-w-[455px] midLg:gap-y-4 
                 mx-auto midLg:max-w-full midLg:grid-cols-4 min-[900px]:mb-[-6rem] min-[991px]:mb-[-5rem]
-                midLg:gap-x-0 midLg:px-8 min-[1080px]:mb-[-6.1rem] lgXl:py-7 lgXl:text-left">
+                midLg:text-left midLg:gap-x-0 lg:px-8 min-[1080px]:mb-[-6.1rem] lgXl:py-7">
                     
                     <div className= "midLg:w-fit">
                         <h2 className="responseHeader"> IP ADDRESS </h2>
