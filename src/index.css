@@ -9,3 +9,17 @@
 .responseDiv {
     @apply midLg:pl-8 midLg:border-l-2 midLg:w-fit;
 }
+
+.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    transition: all 0.5s ease;
+}
+  
+.hide {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-20px);
+    transition: all 0.5s ease;
+}

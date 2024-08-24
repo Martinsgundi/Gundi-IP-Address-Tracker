@@ -1,6 +1,10 @@
+// Components
 import SearchBox from './search-box';
 import InfoBox from './info-box';
 import Map from './Map';
+import MapInfo from './map-info';
+
+// Hooks
 import { useEffect, useState } from 'react';
 import useFetch from './useFetch';
 
@@ -38,8 +42,13 @@ function App() {
           <InfoBox response={response} />
         </div>
         
-        <Map response={response} /> 
         
+        {/* Map Info */}
+        <MapInfo />
+        
+        
+        <Map response={response} ></Map> 
+  
       </div>
       
     </>
