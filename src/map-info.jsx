@@ -69,7 +69,7 @@ const MapInfo = () => {
                 <button 
                     onClick={hideInfo}
                     aria-label="close"
-                    className='absolute text-2xl text-red-400 right-2 top-2'>
+                    className='absolute text-2xl text-[#ed4337] right-2 top-2'>
                     <IoMdCloseCircle />
                 </button>
                 

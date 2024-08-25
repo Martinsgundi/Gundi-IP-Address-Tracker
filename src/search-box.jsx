@@ -40,8 +40,9 @@ const SearchBox = ( { handleApiSearch } ) => {
              className='flex justify-center text-lg font-normal'>
 
                 <input type="text" 
-                    className='rounded-s-2xl px-3 py-4 indent-2 outline-none w-full max-w-[400px] lg:max-w-[490px]'
-                    placeholder="Search for any IP address or domain"
+                    className='rounded-s-2xl px-3 py-4 indent-2 
+                    outline-none w-full max-w-[400px] lg:max-w-[490px]'
+                    placeholder="Search for any IP address"
                     value={ip}
                     onChange={handleChange}
                 />
@@ -55,7 +56,9 @@ const SearchBox = ( { handleApiSearch } ) => {
             {/* Error message for form validation */}
             { !isValid && !isEmpty(ip) 
                 && 
-                <div className='flex text-[#ed4337] gap-3 px-4 mx-auto mt-2 bg-white rounded-lg w-fit'>
+                <div className='flex text-[#ed4337] gap-3 px-4 
+                    mx-auto mt-2 bg-white rounded-lg w-fit'>
+                    
                     <FaTriangleExclamation className='self-center' />
                     
                     <p className='text-lg midLg:text-xl'>
